@@ -75,7 +75,7 @@ class Person
     elsif convo == "weather"
      return "blah blah sun blah rain"
      self.happiness +=1 
-     
+     starter.happiness +=1
     else
       return "blah blah blah blah blah"
     end
