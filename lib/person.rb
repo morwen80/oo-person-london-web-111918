@@ -12,7 +12,10 @@ class Person
  end
  
  def clean?
-   @hygiene > 7
+   if @hygiene > 7
+     return true 
+   else
+     return false
  end
  
  def happy?
