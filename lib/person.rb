@@ -39,8 +39,14 @@ class Person
    puts "♪ another one bites the dust ♫"
  end
  
- def happiness
-   
+ def happiness=(value)
+  if value < 0 
+      @happiness = 0 
+    elsif value > 10 
+      @happiness = 10 
+    else 
+      @happiness = value 
+  end
  end
  
 end
