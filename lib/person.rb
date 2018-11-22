@@ -68,7 +68,8 @@ class Person
  
  def start_conversation(starter, convo)
     if convo == "politics"
-      self.happiness -= 2 
+      self.happiness -= 2
+      starter.happiness -= 2
      return "blah blah partisan blah lobbyist"
      
     elsif convo == "weather"
