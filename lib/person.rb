@@ -54,10 +54,10 @@ class Person
    if stink < 0 
      @hygiene = 0 
    elsif stink > 10 
-   @hygiene = 10
- else
+    @hygiene = 10
+  else
    @hygiene = stink
- end
+  end
  end
  
  
