@@ -6,6 +6,7 @@ class Person
  
  def initialize
    @name = name
+   @bank_account = $25
  end
  
 end
