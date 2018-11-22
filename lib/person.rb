@@ -30,13 +30,13 @@ class Person
  
  def take_bath
    self.hygiene += 4
-   puts "♪ Rub-a-dub just relaxing in the tub ♫"
+   return "♪ Rub-a-dub just relaxing in the tub ♫"
  end
  
  def work_out
    self.happiness +=2 
    self.hygiene -= 3
-   puts "♪ another one bites the dust ♫"
+   return "♪ another one bites the dust ♫"
  end
  
  def happiness=(value)
