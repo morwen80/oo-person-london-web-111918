@@ -74,6 +74,7 @@ class Person
     elsif topic == "weather"
      return "blah blah sun blah rain"
      self.happiness +=1 
+     
     else
       return "blah blah blah blah blah"
     end
