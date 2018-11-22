@@ -74,9 +74,9 @@ class Person
      return "blah blah partisan blah lobbyist"
      
     elsif convo == "weather"
+      self.happiness += 1 
+     starter.happiness += 1
      return "blah blah sun blah rain"
-     self.happiness +=1 
-     starter.happiness +=1
     else
       return "blah blah blah blah blah"
     end
