@@ -19,4 +19,13 @@ class Person
    @happiness > 7
  end
  
+ def get_paid(salary)
+   self.bank_account += salary
+   puts "all about the benjamins"
+ end
+ 
+ def take_bath
+   self.hygiene += 4
+   puts 
+ end
 end
