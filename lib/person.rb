@@ -1,8 +1,8 @@
 class Person
  
- attr_reader :name 
+ attr_reader :name, :happiness, :hygiene
  
- attr_accessor :bank_account, :happiness, :hygiene
+ attr_accessor :bank_account
  
  def initialize(name)
    @name = name
@@ -39,5 +39,8 @@ class Person
    puts "♪ another one bites the dust ♫"
  end
  
+ def happiness
+   
+ end
  
 end
